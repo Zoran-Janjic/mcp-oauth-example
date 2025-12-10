@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+.env*
+*.venv
+venv/
+ENV/
+env/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Test and coverage
+.coverage
+htmlcov/
+*.cover
+*.pyc
+
+# Node
+node_modules/
+
+# Misc
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# MCP UI server
+mcp_ui_server/__pycache__/
+
+# Ignore local config
+local_settings.py
