@@ -46,7 +46,7 @@ mcp = FastMCP(
 )
 
 
-@mcp.tool
+@mcp.add_tool
 def greet(name: str) -> str:
     return f"Hello, {name}, Hello from mcp-oauth-example!"
 
